@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatima/MFDP/notebooks/mlruns/0/ddcc3f9863cc45d4a80fbcf722fc7bb0/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ddcc3f9863cc45d4a80fbcf722fc7bb0
+run_name: intelligent-slug-816
+run_uuid: ddcc3f9863cc45d4a80fbcf722fc7bb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685268089367
+status: 1
+tags: []
+user_id: fatima

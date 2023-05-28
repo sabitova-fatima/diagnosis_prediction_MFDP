@@ -1,0 +1,111 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.8
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.1.3
+mlflow_version: 2.3.2
+model_uuid: 36ed9689def441eda92328b2f526aa0d
+run_id: ddcc3f9863cc45d4a80fbcf722fc7bb0
+signature:
+  inputs: '[{"name": "E_91", "type": "long"}, {"name": "E_53", "type": "long"}, {"name":
+    "E_159", "type": "long"}, {"name": "E_129", "type": "long"}, {"name": "E_154",
+    "type": "long"}, {"name": "E_155", "type": "long"}, {"name": "E_210", "type":
+    "long"}, {"name": "E_140", "type": "long"}, {"name": "E_51", "type": "long"},
+    {"name": "E_75", "type": "long"}, {"name": "E_89", "type": "long"}, {"name": "E_114",
+    "type": "long"}, {"name": "E_82", "type": "long"}, {"name": "E_148", "type": "long"},
+    {"name": "E_94", "type": "long"}, {"name": "E_220", "type": "long"}, {"name":
+    "E_161", "type": "long"}, {"name": "E_179", "type": "long"}, {"name": "E_162",
+    "type": "long"}, {"name": "E_173", "type": "long"}, {"name": "E_33", "type": "long"},
+    {"name": "E_218", "type": "long"}, {"name": "E_93", "type": "long"}, {"name":
+    "E_66", "type": "long"}, {"name": "E_163", "type": "long"}, {"name": "E_30", "type":
+    "long"}, {"name": "E_127", "type": "long"}, {"name": "E_181", "type": "long"},
+    {"name": "E_88", "type": "long"}, {"name": "E_43", "type": "long"}, {"name": "E_156",
+    "type": "long"}, {"name": "E_144", "type": "long"}, {"name": "E_216", "type":
+    "long"}, {"name": "E_201", "type": "long"}, {"name": "E_217", "type": "long"},
+    {"name": "E_215", "type": "long"}, {"name": "E_64", "type": "long"}, {"name":
+    "E_96", "type": "long"}, {"name": "E_16", "type": "long"}, {"name": "E_50", "type":
+    "long"}, {"name": "E_97", "type": "long"}, {"name": "E_9", "type": "long"}, {"name":
+    "E_76", "type": "long"}, {"name": "E_102", "type": "long"}, {"name": "E_65", "type":
+    "long"}, {"name": "E_74", "type": "long"}, {"name": "E_205", "type": "long"},
+    {"name": "E_63", "type": "long"}, {"name": "E_128", "type": "long"}, {"name":
+    "E_190", "type": "long"}, {"name": "E_39", "type": "long"}, {"name": "E_212",
+    "type": "long"}, {"name": "E_206", "type": "long"}, {"name": "E_52", "type": "long"},
+    {"name": "E_203", "type": "long"}, {"name": "E_38", "type": "long"}, {"name":
+    "E_172", "type": "long"}, {"name": "E_84", "type": "long"}, {"name": "E_90", "type":
+    "long"}, {"name": "E_211", "type": "long"}, {"name": "E_166", "type": "long"},
+    {"name": "E_112", "type": "long"}, {"name": "E_178", "type": "long"}, {"name":
+    "E_151", "type": "long"}, {"name": "E_45", "type": "long"}, {"name": "E_194",
+    "type": "long"}, {"name": "E_83", "type": "long"}, {"name": "E_157", "type": "long"},
+    {"name": "E_176", "type": "long"}, {"name": "E_42", "type": "long"}, {"name":
+    "E_214", "type": "long"}, {"name": "E_150", "type": "long"}, {"name": "E_32",
+    "type": "long"}, {"name": "E_221", "type": "long"}, {"name": "E_202", "type":
+    "long"}, {"name": "E_219", "type": "long"}, {"name": "E_196", "type": "long"},
+    {"name": "E_170", "type": "long"}, {"name": "E_77", "type": "long"}, {"name":
+    "E_13", "type": "long"}, {"name": "E_14", "type": "long"}, {"name": "E_169", "type":
+    "long"}, {"name": "E_177", "type": "long"}, {"name": "E_175", "type": "long"},
+    {"name": "E_174", "type": "long"}, {"name": "E_145", "type": "long"}, {"name":
+    "E_92", "type": "long"}, {"name": "E_192", "type": "long"}, {"name": "E_188",
+    "type": "long"}, {"name": "E_164", "type": "long"}, {"name": "E_193", "type":
+    "long"}, {"name": "E_168", "type": "long"}, {"name": "E_180", "type": "long"},
+    {"name": "E_67", "type": "long"}, {"name": "E_78", "type": "long"}, {"name": "E_146",
+    "type": "long"}, {"name": "E_171", "type": "long"}, {"name": "E_111", "type":
+    "long"}, {"name": "E_182", "type": "long"}, {"name": "E_103", "type": "long"},
+    {"name": "E_23", "type": "long"}, {"name": "E_105", "type": "long"}, {"name":
+    "E_108", "type": "long"}, {"name": "E_104", "type": "long"}, {"name": "E_79",
+    "type": "long"}, {"name": "E_71", "type": "long"}, {"name": "E_41", "type": "long"},
+    {"name": "E_100", "type": "long"}, {"name": "E_69", "type": "long"}, {"name":
+    "E_167", "type": "long"}, {"name": "E_115", "type": "long"}, {"name": "E_70",
+    "type": "long"}, {"name": "E_10", "type": "long"}, {"name": "E_165", "type": "long"},
+    {"name": "E_8", "type": "long"}, {"name": "E_25", "type": "long"}, {"name": "E_184",
+    "type": "long"}, {"name": "E_185", "type": "long"}, {"name": "E_99", "type": "long"},
+    {"name": "E_107", "type": "long"}, {"name": "E_226", "type": "long"}, {"name":
+    "E_62", "type": "long"}, {"name": "E_49", "type": "long"}, {"name": "E_95", "type":
+    "long"}, {"name": "E_37", "type": "long"}, {"name": "E_153", "type": "long"},
+    {"name": "E_124", "type": "long"}, {"name": "E_98", "type": "long"}, {"name":
+    "E_116", "type": "long"}, {"name": "E_48", "type": "long"}, {"name": "E_2", "type":
+    "long"}, {"name": "E_227", "type": "long"}, {"name": "E_61", "type": "long"},
+    {"name": "E_47", "type": "long"}, {"name": "E_27", "type": "long"}, {"name": "E_143",
+    "type": "long"}, {"name": "E_191", "type": "long"}, {"name": "E_208", "type":
+    "long"}, {"name": "E_126", "type": "long"}, {"name": "E_189", "type": "long"},
+    {"name": "E_7", "type": "long"}, {"name": "E_24", "type": "long"}, {"name": "E_26",
+    "type": "long"}, {"name": "E_113", "type": "long"}, {"name": "E_160", "type":
+    "long"}, {"name": "E_28", "type": "long"}, {"name": "E_20", "type": "long"}, {"name":
+    "E_80", "type": "long"}, {"name": "E_40", "type": "long"}, {"name": "E_0", "type":
+    "long"}, {"name": "E_1", "type": "long"}, {"name": "E_34", "type": "long"}, {"name":
+    "E_209", "type": "long"}, {"name": "E_139", "type": "long"}, {"name": "E_19",
+    "type": "long"}, {"name": "E_31", "type": "long"}, {"name": "E_22", "type": "long"},
+    {"name": "E_60", "type": "long"}, {"name": "E_35", "type": "long"}, {"name": "E_213",
+    "type": "long"}, {"name": "E_12", "type": "long"}, {"name": "E_44", "type": "long"},
+    {"name": "E_4", "type": "long"}, {"name": "E_81", "type": "long"}, {"name": "E_109",
+    "type": "long"}, {"name": "E_110", "type": "long"}, {"name": "E_17", "type": "long"},
+    {"name": "E_18", "type": "long"}, {"name": "E_118", "type": "long"}, {"name":
+    "E_123", "type": "long"}, {"name": "E_207", "type": "long"}, {"name": "E_86",
+    "type": "long"}, {"name": "E_87", "type": "long"}, {"name": "E_141", "type": "long"},
+    {"name": "E_11", "type": "long"}, {"name": "E_186", "type": "long"}, {"name":
+    "E_106", "type": "long"}, {"name": "E_158", "type": "long"}, {"name": "E_187",
+    "type": "long"}, {"name": "E_6", "type": "long"}, {"name": "E_125", "type": "long"},
+    {"name": "E_21", "type": "long"}, {"name": "E_222", "type": "long"}, {"name":
+    "E_15", "type": "long"}, {"name": "E_147", "type": "long"}, {"name": "E_137",
+    "type": "long"}, {"name": "E_149", "type": "long"}, {"name": "E_197", "type":
+    "long"}, {"name": "E_3", "type": "long"}, {"name": "E_29", "type": "long"}, {"name":
+    "E_225", "type": "long"}, {"name": "E_73", "type": "long"}, {"name": "E_138",
+    "type": "long"}, {"name": "E_101", "type": "long"}, {"name": "E_46", "type": "long"},
+    {"name": "E_119", "type": "long"}, {"name": "E_72", "type": "long"}, {"name":
+    "E_198", "type": "long"}, {"name": "E_200", "type": "long"}, {"name": "E_199",
+    "type": "long"}, {"name": "E_121", "type": "long"}, {"name": "E_120", "type":
+    "long"}, {"name": "E_142", "type": "long"}, {"name": "E_195", "type": "long"},
+    {"name": "E_183", "type": "long"}, {"name": "E_224", "type": "long"}, {"name":
+    "E_223", "type": "long"}, {"name": "E_5", "type": "long"}, {"name": "SEX", "type":
+    "long"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+utc_time_created: '2023-05-28 10:01:29.595737'
